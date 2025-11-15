@@ -171,7 +171,7 @@ $(function () {
   $(".tips").text(`${futureTime} (UTC+8)`);
   startTicker(targetDate);
 
-  const videos = ["resources/images/cyrene.mp4", "resources/images/cyrene.mp4"];
+  const videos = ["https://cdn.jsdelivr.net/gh/LuoYingPiaoXue/cyrene-meme@master/resources/images/cyrene.mp4", "https://cdn.jsdelivr.net/gh/LuoYingPiaoXue/cyrene-meme@master/resources/images/cyrene.mp4"];
   const randomVideo = videos[Math.floor(Math.random() * videos.length)];
   const videoElement = document.getElementById("bg-video");
   if (videoElement) {
